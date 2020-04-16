@@ -1,3 +1,6 @@
 [submodule "Srishti-Portfolio/themes/somrat"]
 	path = Srishti-Portfolio/themes/somrat
 	url = https://github.com/Somrat37/somrat.git
+[submodule "themes/somrat"]
+	path = themes/somrat
+	url = https://github.com/Somrat37/somrat.git
