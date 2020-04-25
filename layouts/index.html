@@ -363,10 +363,12 @@
   {{ with $data.homepage.GitHub }}
   <div class="need-service wow fadeInUp" data-wow-duration="1.5s"
     style="background-image: url('{{ .bg_image | absURL }}');">
-    <h1>{{ .title | markdownify }}</h1>
-    {{ with .content }} <p class="text-white">{{ . | markdownify }}</p> {{ end }}
+    <h1>{{ .title | markdownify }} </h1>
+    {{ with .content }} 
+    <p class="text-white">{{ . | markdownify }}</p> {{ end }}
     {{ if .button.enable }}
     {{ with .button }}
+      <div style="color:white">   <i class="fa fa-github fa-3x" aria-hidden="true"></i></div>
     <a href="{{ .link }}">{{ .label }}</a>
     {{ end }}
     {{ end }}
