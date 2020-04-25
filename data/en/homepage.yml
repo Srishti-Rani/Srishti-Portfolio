@@ -42,7 +42,7 @@ I have a keen interest in the field of Wed Development,Software Development and 
 
 My hobbies include reading novels such as  The Lunar Chronicles,The Girl With All The Gifts and many more; reading articles, handicraft, traveling, and watching web series.
 
-I am a firm believer of passion and determination, can lead you to success. Stay connected with me............😊"
+I am a firm believer of passion and determination, will lead you to success. "
  # button
   button:
     enable : true
@@ -65,15 +65,15 @@ experience:
       
     # experience item loop
     - name : "Software Developer"
-      content : " I work with Java as well as C.I know a bit on programming in Python  too."
+      content : " I work with Java as well as C. I know a bit on programming in Python  too."
       
     # experience item loop
     - name : "Database Manager"
-      content : "Database management is among the fundamental processes in the software field of computing. I know MySql well."
+      content : "Database management is among the fundamental processes in the software field of computing. I know MySql."
 
     # experience item loop
     - name : "Machine Learning"
-      content : " I have keen interest in ML using Python and Data Science ."
+      content : " I have keen interest in ML using Python and Data Analytics ."
 
 ################################### Service ##############################3
 service:
@@ -87,14 +87,16 @@ service:
     # service item loop
     - name : "Machine Learning"
       image : "images/icons/graphic-design.png"
+
+# service item loop
+    - name : "Software Development"
+      image : "images/icons/software-development.png"
       
     # service item loop
     - name : "Database Management"
       image : "images/icons/dbms.png"
       
-    # service item loop
-    - name : "Software Development"
-      image : "images/icons/software-development.png"
+    
 
 ############################## call to action #########################
 call_to_action:
@@ -103,7 +105,7 @@ call_to_action:
   title : "NEED A SERVICE?"
   button:
     enable : true
-    label : "SAY HELLO!"
+    label : "CONTACT ME !"
     link : "#contact"
 
 
@@ -118,53 +120,12 @@ portfolio:
       date : "April 2020"
       category : "Web Development"
       
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item2.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item3.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item4.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item5.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item6.jpg"
-      date : "Feb 2018"
-      category : "Web Development"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item7.jpg"
-      date : "Feb 2018"
-      category : "Machine Learning"
-      
-    # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item8.jpg"
-      date : "Feb 2018"
-      category : "Machine Learning"
-
+     
       ############################## call to action #########################
 GitHub:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "You can check out my Projects from the GitHub link below"
+  title : "Please check out my Projects from the GitHub link below"
   button:
     enable : true
     label : "GitHub"
