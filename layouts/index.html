@@ -358,10 +358,9 @@
       Github
     =============================== -->
 <section class="services" id="service">
- </section>
 
-  {{ if $data.homepage.call_to_action.enable }}
-  {{ with $data.homepage.call_to_action }}
+  {{ if $data.homepage.GitHub.enable }}
+  {{ with $data.homepage.GitHub }}
   <div class="need-service wow fadeInUp" data-wow-duration="1.5s"
     style="background-image: url('{{ .bg_image | absURL }}');">
     <h1>{{ .title | markdownify }}</h1>
