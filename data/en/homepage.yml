@@ -47,7 +47,7 @@ I am a firm believer of passion and determination, can lead you to success. Stay
   button:
     enable : true
     label : "DOWNLOAD MY CV"
-    link : "#images/cv.docx" # you can put your cv in static folder and give the path here.
+    link : "images/cv.docx" # you can put your cv in static folder and give the path here.
 
 ###########################3 Skill ##############################
 experience:
@@ -110,14 +110,15 @@ portfolio:
     # portfolio item loop
     - name : "Project <br> Title"
       image : "images/portfolio/item1.jpg"
-      date : "Feb 2018"
+      date : "https://github.com/Chaitanyassr/Srishti-Portfolio/blob/master/config.toml"
       category : "Web Development"
       
     # portfolio item loop
     - name : "Project <br> Title"
-      image : "images/portfolio/item2.jpg"
+      image : "https://github.com/Chaitanyassr/Srishti-Portfolio/blob/master/config.toml"
       date : "Feb 2018"
       category : "Web Development"
+      link : "https://github.com/Chaitanyassr/Srishti-Portfolio/blob/master/config.toml"
       
     # portfolio item loop
     - name : "Project <br> Title"
@@ -154,7 +155,16 @@ portfolio:
       image : "images/portfolio/item8.jpg"
       date : "Feb 2018"
       category : "Machine Learning"
-      
+      ############################## call to action #########################
+GitHub:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "You can check out my Project for the below link"
+  button:
+    enable : true
+    label : "GtiHub"
+    link : "https://github.com/Srishti-Rani"
+
     
       
 ############################## contact ###########################
