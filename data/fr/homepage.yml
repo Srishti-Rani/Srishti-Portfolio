@@ -43,11 +43,16 @@ I have a keen interest in the field of Wed Development,Software Development and 
 My hobbies include reading novels such as  The Lunar Chronicles,The Girl With All The Gifts and many more; reading articles, handicraft, traveling, and watching web series.
 
 I am a firm believer of passion and determination, can lead you to success. Stay connected with me............😊"
-  # button
+ # button
   button:
     enable : true
     label : "DOWNLOAD MY CV"
-    link : "#static/cv.docx" # you can put your cv in static folder and give the path here.
+    link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
+ # button
+  button2:
+    enable : true
+    label : "DOWNLOAD MY VIDEO RESUME"
+    link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
 
 ###########################3 Skill ##############################
 experience:
@@ -108,9 +113,9 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "Project <br> Title"
-      image : "images/portfolio/item1.jpg"
-      date : "Feb 2018"
+    - name : "Project <br> Portfolio"
+      image : "images/portfolio/item1.png"
+      date : "April 2020"
       category : "Web Development"
       
     # portfolio item loop
@@ -154,6 +159,16 @@ portfolio:
       image : "images/portfolio/item8.jpg"
       date : "Feb 2018"
       category : "Machine Learning"
+
+      ############################## call to action #########################
+GitHub:
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "You can check out my Projects from the GitHub link below"
+  button:
+    enable : true
+    label : "GitHub"
+    link : "https://github.com/Srishti-Rani"
       
     
       
