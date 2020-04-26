@@ -125,7 +125,7 @@ portfolio:
 GitHub:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "Please check out my Projects from the GitHub link below"
+  title : "Please check out my Projects from link below"
   button:
     enable : true
     label : "GitHub"
