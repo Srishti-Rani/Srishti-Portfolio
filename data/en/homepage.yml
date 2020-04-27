@@ -38,7 +38,7 @@ about:
 
 My idea behind taking up Computer Science & Engineering is my love for programming and the fact that, given the knowledge, I can make a computer do almost anything I want it to do.
 
-I have a keen interest in the field of Web Development,Software Development and Machine Learning and I'm presently learning and working on the skills required to expertise in the same.
+I have a keen interest in the field of Wed Development,Software Development and Machine Learning, and I'm presently learning and working on the skills required to expertise in the same.
 
 My hobbies include reading novels such as  The Lunar Chronicles,The Girl With All The Gifts and many more; reading articles, handicraft, traveling, and watching web series.
 
@@ -115,9 +115,15 @@ portfolio:
   title : "PORTFOLIO"
   portfolio_list:
     # portfolio item loop
-    - name : "Project <br> Portfolio"
+    - name : "Srishti<br> Portfolio"
       image : "images/portfolio/item1.png"
       date : "April 2020"
+      category : "Web Development"
+
+ # portfolio item loop
+    - name : "Chinuon <br>JoinForm"
+      image : "images/portfolio/item2.png"
+      date : "May 2020"
       category : "Web Development"
       
      
@@ -125,7 +131,7 @@ portfolio:
 GitHub:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "Please check out my Projects from link below"
+  title : "Checkout my projects below!!"
   button:
     enable : true
     label : "GitHub"
