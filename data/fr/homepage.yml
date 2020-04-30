@@ -1,40 +1,40 @@
-########################## zone des héros ###################### ####
-héros:
-  titre: "Je suis Srishti Rani"
+########################## hero area ##########################
+hero:
+  title : "Je suis Srishti Rani"
 
-  # boucle de texte animée
-  professions:
-    - "Développeur web"
-    - "Développeur de logiciels"
-    - "Machine Learning"
+  # animated text loop
+  occupations:
+    - "Développeur web"
+    - "Développeur de logiciels"
+    - "Machine Learning"
 
-  # boucle d'image d'arrière-plan du curseur
-  slider_image:
-    - "images / slider / slider-1.jpg"
-    - "images / slider / slider-2.jpg"
-    - "images / slider / slider-3.jpg"
+  # slider background image loop
+  slider_image:
+    - "images/slider/slider-1.jpg"
+    - "images/slider/slider-2.jpg"
+    - "images/slider/slider-3.jpg"
 
-  # bouton
-  bouton:
-    activer: vrai
-    étiquette: "HIRE ME"
-    lien: "#contact"
+  # button
+  button:
+    enable : true
+    label : "HIRE ME"
+    link : "#contact"
 
 
-####################### Navigation plein écran ######################
+####################### Full screen navigation #####################
 fullscreen_nav:
-  activer: vrai
-  bg_image: "images / arrière-plans / full-nav-bg.png"
-  prénom: "$"
-  nom: "SRISHTI"
-  
+  enable : true
+  bg_image : "images/backgrounds/full-nav-bg.png"
+  first_name : "$"
+  last_name : "SRISHTI"
+  
 
-########################### À propos ###################### ############
-à propos:
-  activer: vrai
-  image: "images / arrière-plans / portrait.jpg"
-  title: "EN SAVOIR PLUS SUR MOI"
-  contenu: "J'ai 21 ans, actuellement en 4ème année, poursuivant une carrière en informatique et ingénierie au Future Institute of Engineering & Management, Kolkata, Inde. Né et élevé à Ranchi, Inde. J'ai fait mes études à Kairali École Ranchi en 2017, avec la science comme arrière-plan.
+########################### About ##################################
+about:
+  enable : true
+  image : "images/backgrounds/portrait.jpg"
+  title : "KNOW MORE <br> ABOUT ME"
+  content : " J'ai 21 ans, actuellement en 4ème année, poursuivant une carrière en informatique et ingénierie au Future Institute of Engineering & Management, Kolkata, Inde. Né et élevé à Ranchi, Inde. J'ai fait mes études à Kairali École Ranchi en 2017, avec la science comme arrière-plan.
 
 Mon idée derrière l'informatique et l'ingénierie est mon amour pour la programmation et le fait que, étant donné les connaissances, je peux faire un ordinateur faire presque tout ce que je veux qu'il fasse.
 
@@ -43,103 +43,103 @@ J'ai un vif intérêt dans le domaine du développement Wed, du développement l
 Mes hobbies incluent la lecture de romans tels que The Lunar Chronicles, The Girl With All The Gifts et bien d'autres; lire des articles, de l'artisanat, voyager et regarder des séries Web.
 
 Je suis un fervent partisan de la passion et de la détermination, vous conduira au succès. "
- # bouton
-  bouton:
-    activer: vrai
-    label: "TELECHARGER MON CV"
-    lien: "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # vous pouvez mettre votre cv dans un dossier statique et donner le chemin ici.
- # bouton
-  bouton2:
-    activer: vrai
-    label: "TELECHARGER MON CV VIDEO"
-    lien: "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # vous pouvez mettre votre cv dans un dossier statique et donner le chemin ici.
+ # button
+  button:
+    enable : true
+    label : "TELECHARGER MON CV"
+    link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
+ # button
+  button2:
+    enable : true
+    label : "TELECHARGER MON CV VIDEO"
+    link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
 
-########################### 3 Compétence ##################### #########
-expérience:
-  activer: vrai
-  titre: "Compétence"
-  experience_list:
-    # boucle d'élément d'expérience
-    - nom: "Développeur Web"
-      contenu: "Je travaille avec HTML, CSS et Javascript pour créer des sites Web et des applications Web. Je travaille également avec Hugo."
-      
-    # boucle d'élément d'expérience
-    - nom: "Développeur logiciel"
-      contenu: "Je travaille aussi bien avec Java que C. Je connais aussi un peu la programmation en Python."
-      
-    # boucle d'élément d'expérience
-    - nom: "Database Manager"
-      contenu: "La gestion de bases de données fait partie des processus fondamentaux dans le domaine logiciel de l'informatique. Je connais MySql."
+###########################3 Skill ##############################
+experience:
+  enable : true
+  title : "Compétence"
+  experience_list:
+    # experience item loop
+    - name : "Développeur Web"
+      content : "e travaille avec HTML, CSS et Javascript pour créer des sites Web et des applications Web. Je travaille également avec Hugo."
+      
+    # experience item loop
+    - name : "Développeur logiciel"
+      content : "Je travaille aussi bien avec Java que C. Je connais aussi un peu la programmation en Python."
+      
+    # experience item loop
+    - name : "Gestion de base de données"
+      content : "La gestion de bases de données fait partie des processus fondamentaux dans le domaine logiciel de l'informatique. Je connais MySql."
 
-    # boucle d'élément d'expérience
-    - nom: "Machine Learning"
-      contenu: "J'ai un vif intérêt pour ML en utilisant Python et Data Analytics."
+    # experience item loop
+    - name : "Machine Learning"
+      content : "J'ai un vif intérêt pour ML en utilisant Python et Data Analytics.."
 
-################################### Un service ############## ################ 3
-un service:
-  activer: vrai
-  titre: "SERVICES"
-  liste_services:
-    # boucle d'élément de service
-    - nom: "Développement Web"
-      image: "images / icônes / web-development.png"
-      
-    # boucle d'élément de service
-    - nom: "Machine Learning"
-      image: "images / icônes / graphic-design.png"
+################################### Service ##############################3
+service:
+  enable : true
+  title : "SERVICES"
+  service_list:
+    # service item loop
+    - name : "Développement Web"
+      image : "images/icons/web-development.png"
+      
+    # service item loop
+    - name : "Machine Learning"
+      image : "images/icons/graphic-design.png"
 
-# boucle d'élément de service
-    - nom: "Développement de logiciels"
-      image: "images / icônes / software-development.png"
-      
-    # boucle d'élément de service
-    - nom: "Gestion de base de données"
-      image: "images / icônes / dbms.png"
-      
-    
+# service item loop
+    - name : "Développement de logiciels"
+      image : "images/icons/software-development.png"
+      
+    # service item loop
+    - name : "Gestion de base de données"
+      image : "images/icons/dbms.png"
+      
+    
 
-############################## appel à l'action ################# ########
+############################## call to action #########################
 call_to_action:
-  activer: vrai
-  bg_image: "images / arrière-plans / need-service.jpg"
-  title: "BESOIN D'UN SERVICE?"
-  bouton:
-    activer: vrai
-    étiquette: "CONTACTEZ MOI!"
-    lien: "#contact"
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "BESOIN D'UN SERVICE?"
+  button:
+    enable : true
+    label : "CONTACTEZ MOI!"
+    link : "#contact"
 
 
-############################# portfolio #################### ############
-portefeuille:
-  activer: vrai
-  titre: "PORTFOLIO"
-  portfolio_list:
-    # boucle d'élément de portefeuille
-    - nom: "Srishti <br> Portfolio"
-      image: "images / portfolio / item1.png"
-      date: "avril 2020"
-      catégorie: "Développement Web"
+############################# portfolio ################################
+portfolio:
+  enable : true
+  title : "PORTFOLIO"
+  portfolio_list:
+    # portfolio item loop
+    - name : "Srishti<br> Portfolio"
+      image : "images/portfolio/item1.png"
+      date : "avril 2020"
+      category : "Développement Web"
 
- # boucle d'élément de portefeuille
-    - nom: "Chinuon <br> JoinForm"
-      image: "images / portfolio / item2.png"
-      date: "mai 2020"
-      catégorie: "Développement Web"
-      
-     
-      ############################## appel à l'action ################# ########
+ # portfolio item loop
+    - name : "Chinuon <br>JoinForm"
+      image : "images/portfolio/item2.png"
+      date : "mai 2020"
+      category : "Développement Web"
+      
+     
+      ############################## call to action #########################
 GitHub:
-  activer: vrai
-  bg_image: "images / arrière-plans / need-service.jpg"
-  title: "Découvrez mes projets ci-dessous !!"
-  bouton:
-    activer: vrai
-    étiquette: "GitHub"
-    lien: "https://github.com/Srishti-Rani"
-      
-    
-      
-############################## contact ################### ########
+  enable : true
+  bg_image : "images/backgrounds/need-service.jpg"
+  title : "Découvrez mes projets ci-dessous !!"
+  button:
+    enable : true
+    label : "GitHub"
+    link : "https://github.com/Srishti-Rani"
+      
+    
+      
+############################## contact ###########################
 contact:
-  activer: vrai
-  titre: "DITES BONJOUR!"
+  enable : true
+  title : "DITES BONJOUR!"
