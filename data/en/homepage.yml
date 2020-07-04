@@ -34,25 +34,21 @@ about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
   title : "KNOW MORE <br> ABOUT ME"
-  content : " I am 21 years old, currently in 4th year, pursuing a career in Computer Science & Engineering from Future Institute of Engineering & Management, Kolkata, India. Born and brought up in Ranchi, India. I have done my schooling from Kairali School Ranchi in 2017, with Science as my background.
+  content : " I am currently in 4th year, pursuing a career in Computer Science & Engineering from Future Institute of Engineering & Management, Kolkata, India. Born and brought up in Ranchi, India. I have done my schooling from Kairali School Ranchi in 2017, with Science as my background.
 
 My idea behind taking up Computer Science & Engineering is my love for programming and the fact that, given the knowledge, I can make a computer do almost anything I want it to do.
 
-I have a keen interest in the field of Wed Development,Software Development and Machine Learning, and I'm presently learning and working on the skills required to expertise in the same.
+I have a bit of hands on Web Development and Software Development, apart from these two from new age technologies i have keen interest in Machine Learning and I'm presently learning and working on the skills required to expertise in the same.
 
 My hobbies include reading novels such as  The Lunar Chronicles,The Girl With All The Gifts and many more; reading articles, handicraft, traveling, and watching web series.
 
-I am a firm believer of passion and determination, will lead you to success. "
+I am a firm believer of passion and determination. "
  # button
   button:
     enable : true
     label : "DOWNLOAD MY CV"
     link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
- # button
-  button2:
-    enable : true
-    label : "DOWNLOAD MY VIDEO RESUME"
-    link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
+ 
 
 ###########################3 Skill ##############################
 experience:
@@ -102,7 +98,7 @@ service:
 call_to_action:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "NEED A SERVICE?"
+  title : "FOR COLLABORATION !"
   button:
     enable : true
     label : "CONTACT ME !"
