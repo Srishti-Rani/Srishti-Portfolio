@@ -33,7 +33,7 @@ fullscreen_nav:
 about:
   enable : true
   image : "images/backgrounds/portrait.jpg"
-  title : "KNOW MORE <br> ABOUT ME"
+  title : "KNOW MORE ABOUT ME"
   content : " I am currently in 4th year, pursuing a career in Computer Science & Engineering from Future Institute of Engineering & Management, Kolkata, India. Born and brought up in Ranchi, India. I have done my schooling from Kairali School Ranchi in 2017, with Science as my background.
 
 My idea behind taking up Computer Science & Engineering is my love for programming and the fact that, given the knowledge, I can make a computer do almost anything I want it to do.
@@ -98,7 +98,7 @@ service:
 call_to_action:
   enable : true
   bg_image : "images/backgrounds/need-service.jpg"
-  title : "FOR COLLABORATION !"
+  title : "FOR COLLABORATION"
   button:
     enable : true
     label : "CONTACT ME !"

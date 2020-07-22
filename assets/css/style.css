@@ -718,7 +718,7 @@ input:checked + label span:last-child {
 }
 
 .mobile-menu-logo img {
-  height: 55px;
+  height: 30px;
 }
 
 .mobile-menu-logo {
@@ -1729,6 +1729,8 @@ textarea.form-control::-webkit-input-placeholder,
     font-size: 18px;
     padding: 3px 12px;
   }
+
+
 }
 
 @media (min-width: 470px) and (max-width: 727px) {
@@ -1738,12 +1740,16 @@ textarea.form-control::-webkit-input-placeholder,
   .full-nav-icon-holder {
     margin-top: 15px;
   }
+
+
+
 }
 
 @media (min-width: 728px) and (max-height:470px) {
   .full-nav-container {
     margin-top: 20px;
   }
+
 }
 
 @media (min-width: 469px)and (max-width: 727px) and (max-height:500px) {
@@ -1766,6 +1772,7 @@ textarea.form-control::-webkit-input-placeholder,
     margin-top: 0;
     margin-bottom: 10px;
   }
+
 }
 
 @media (max-height: 535px) and (max-width: 468px) {
@@ -1826,7 +1833,7 @@ textarea.form-control::-webkit-input-placeholder,
     font-size: 35px;
   }
   .last-name {
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 600;
     line-height: 0;
     margin-top: 28px;
@@ -1843,7 +1850,9 @@ textarea.form-control::-webkit-input-placeholder,
   }
   .full-nav-content {
     display: block;
+   margin-top: 130px;
   }
+
 }
 
 @media (max-width: 767px) {
@@ -1854,7 +1863,30 @@ textarea.form-control::-webkit-input-placeholder,
     width: 185px;
   }
 
+.fullscreen-nav-holder a{
+display: block;
+font-size:10px;
 }
+.need-service h1{
+font-size:35px;
+}
+.need-service {
+height:300px;
+}
+.about-me-text h1
+{
+font-size:30px;
+text-align:center;
+}
+.about-me-images img{
+ display: block;
+  margin-left: 75px !important;
+  margin-right: auto;
+  width: 80% !important;
+}
+
+}
+
 
 @media (max-width: 880px) {
   .slider-button {
