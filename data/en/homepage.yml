@@ -47,7 +47,7 @@ I am a firm believer of passion and determination. "
   button:
     enable : true
     label : "DOWNLOAD MY CV"
-    link : "https://drive.google.com/file/d/1NxD-yhN-Es3jEeMpQHn4PkQ65UnZmYYx/view?usp=sharing" # you can put your cv in static folder and give the path here.
+    link : "https://drive.google.com/file/d/16eeAEg6HQoh8loho59raypKc-igr-psW/view?usp=sharing" # you can put your cv in static folder and give the path here.
  
 
 ###########################3 Skill ##############################
@@ -117,10 +117,16 @@ portfolio:
       category : "Web Development"
 
  # portfolio item loop
-    - name : "Chinuon <br>JoinForm"
+    - name : "Chinuon<br>JoinForm"
       image : "images/portfolio/item2.png"
       date : "May 2020"
       category : "Web Development"
+
+ # portfolio item loop
+    - name : "Diabetes<br>Prediction"
+      image : "images/portfolio/item3.PNG"
+      date : "Jan 2020"
+      category : "Machine Learning"
       
      
       ############################## call to action #########################
